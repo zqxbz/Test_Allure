@@ -21,7 +21,7 @@ class Test_Abc:
     @allure.issue("http://www.baidu.com/bug/test_abc_001", "断言失败~~~")
     # 测试用例地址
     # @allure.testcase("http://www.baidu.com/test_abc_001")
-    @allure.testcase("http://www.baidu.com/test01/test_abc_001")
+    @allure.testcase("http://www.baidu.com/test01/test_abc_0001")
     @allure.severity(allure.severity_level.TRIVIAL)
     def test_abc_001(self):
         allure.attach("描述", "断言失败")
