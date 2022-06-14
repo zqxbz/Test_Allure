@@ -25,8 +25,8 @@ class Test_Abc:
     @allure.severity(allure.severity_level.TRIVIAL)
     def test_abc_002(self):
         allure.attach("描述", "断言失败")
-        # assert 1
-        assert 0
+        assert 1
+        # assert 0
 
 
 if __name__ == '__main__':
